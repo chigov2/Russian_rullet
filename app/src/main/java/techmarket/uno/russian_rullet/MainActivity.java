@@ -12,7 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity {//AppCompatActivity - с панелью верхней!!!!!
     private SoundPool sounds;
     private int sound_shot;
     private int sound_shot_false;
